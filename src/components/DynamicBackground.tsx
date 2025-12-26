@@ -48,7 +48,7 @@ export const DynamicBackground = () => {
         style={{ opacity: finalLayerOpacity }}
         // 1단계에서 준비한 이미지 경로입니다.
         // bg-cover로 설정하여 화면을 꽉 채웁니다.
-        className="absolute inset-0 bg-[url('/images/final-bg.jpg')] bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-[url('https://static-assets.everpurple.kr/history/images/10/Mashup_img_08.png')] bg-cover bg-center bg-no-repeat"
       >
         {/* 이미지 위에 살짝 어두운 오버레이를 씌워 텍스트 가독성을 높입니다. */}
         <div className="absolute inset-0 bg-black/40" />
